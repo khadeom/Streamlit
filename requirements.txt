@@ -1,4 +1,4 @@
 streamlit==0.86.0
 qrcode==7.2
 opencv-python==4.1.2.30
-python==3.6
+
