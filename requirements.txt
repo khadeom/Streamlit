@@ -1,5 +1,0 @@
-qrcode==7.2
-streamlit==0.86.0
-opencv==4.5.2
-py-opencv==4.5.2
-python_abi==3.6
