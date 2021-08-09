@@ -1,5 +1,5 @@
 qrcode==7.2
-opencv-python==4.1.2.30
+opencv-python-headless
 numpy>=1.18.1
 streamlit==0.61.0
 pillow==7.1.2
