@@ -2,7 +2,7 @@ import streamlit as st
 import qrcode
 import cv2
 
-st.set_page_config(layout="wide")
+#st.set_page_config(layout="wide")
 
 st.markdown("""
 <style>
