@@ -2,17 +2,21 @@ import streamlit as st
 import qrcode
 import cv2
 
+st.title("App by aditi but does it work")
 
-img=qrcode.make("Hey m aditi")
+st.write(""" 
+	#demo QRcode scanner and decoder
+	""")
+
+user_input = st.text_input("Enter text"
+	, "Hey m aditi")
+
+st.write("QRcode for entered text")
+img=qrcode.make(user_input)
 img.save("adie.jpg")
 
 
-st.title("App by aditi")
 
-st.write(""" 
-	#demo QRcode scanner and decoder\n
-	QRcode is below 
-	""")
 
 st.image('adie.jpg', channels="BGR")
 
