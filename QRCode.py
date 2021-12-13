@@ -13,7 +13,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.title("App by aditi")
+st.title("App by OM KHADE")
 
 st.markdown('<p class="big-font">Demo qrcode generator and Scanner</p>'
 	, unsafe_allow_html=True)
